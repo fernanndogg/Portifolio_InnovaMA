@@ -269,6 +269,11 @@ footer p {
         flex-direction: row;
         gap: 20px;
     }
+
+    .a_header {
+        font-size: 12px;
+    }
+    
     .text_main h1 {
         font-size: 28px;
     }

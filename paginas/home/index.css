@@ -79,7 +79,7 @@ main {
     justify-content: center;
     gap: 100px;
     padding: 50px;
-    max-width: 1200px;
+    max-width: 1390px;
     margin: auto;
     flex-wrap: wrap;
     flex-grow: 1;
@@ -92,18 +92,35 @@ main {
 }
   
 .text_main p {
-    margin-top: 40px;
+    margin-top: 20px;
     color: white;
     font-size: 20px;
     font-weight: 200;
     line-height: 36px;
     text-align: left;
-    max-width: 400px;
+    max-width: 700px;
 }
 
 .text_main p span {
     font-weight: 600;
     color: #42F266;
+}
+
+.titulos_h2 {
+    margin-top: 20px;
+    color: #42F266;
+    font-size: 30px;
+}
+
+.titulos {
+    margin-top: 20px;
+    padding-left: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: justify;
+    max-width: 700px
 }
 
 .links {

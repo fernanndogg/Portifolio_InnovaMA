@@ -35,6 +35,15 @@ header {
     gap: 30px;
 }
 
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: #42F266;
+    font-size: 24px;
+    cursor: pointer;
+} 
+
 .nav_header {
     list-style: none;
     display: flex;
@@ -180,8 +189,30 @@ footer p {
 }
 
 @media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
     .nav_header {
-        gap: 20px;
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #2b2b2be3;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 5px 0 5px 0;
+        border-top: 1px solid #42F266;
+    }
+
+    .nav_header a {
+        padding: 10px 10px;
+    }
+
+    .nav_header.active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     main {

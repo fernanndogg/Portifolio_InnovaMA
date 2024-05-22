@@ -11,7 +11,7 @@ html, body {
 
 body {
     background-color: #2B2B2B;
-    background-image: url(/img/Background\ Códigos.svg);
+    background-image: url(/assets/img/Background_Códigos.svg);
     display: flex;
     flex-direction: column;
 }
